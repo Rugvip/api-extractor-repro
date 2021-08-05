@@ -1,0 +1,2 @@
+
+export {externalThing} from './hop'

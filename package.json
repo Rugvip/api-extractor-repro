@@ -1,0 +1,16 @@
+{
+  "name": "api-extractor-repro",
+  "version": "0.1.0",
+  "description": "Reproduction of a bug in api-extractor",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "tsc && api-extractor run --local --verbose --diagnostics"
+  },
+  "author": "Patrik Oldsberg <patriko@spotify.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "typescript": "^4.3.5",
+    "@microsoft/api-extractor": "^7.18.4"
+  }
+}
